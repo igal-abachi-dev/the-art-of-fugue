@@ -1,0 +1,35 @@
+{
+  "about": "The rights items of the public release checklist (docs/release.md, T9.4.1). A person sets 'status' to 'cleared' and writes the evidence; `pnpm release-check --public` fails while any item is not cleared. Last reviewed by the model on 2026-11-06 from docs/rights.md; none of this is legal advice.",
+  "items": [
+    {
+      "what": "The recording (Marta Czech) may be hosted on a public URL",
+      "status": "open",
+      "evidence": "ripped from a YouTube video; the performer's or label's permission is not obtained. The owner's decision is a private, non-profit preview and a link to the performer's video (docs/rights.md, open item 1)"
+    },
+    {
+      "what": "The score engraving and the data drawn from it (CP 0101, Contrapunctus Press)",
+      "status": "cleared",
+      "evidence": "CC BY-NC-SA 4.0, read from page 3 of the PDF itself; credited on the credits page and under the score; derived data carries the same licence (non-commercial use only)"
+    },
+    {
+      "what": "The IMSLP file page still shows the same licence for CP 0101",
+      "status": "open",
+      "evidence": "re-check on IMSLP's page for the file before any public release (docs/rights.md, open item 2); not checked from this machine"
+    },
+    {
+      "what": "The MusicXML (OpenScore transcription)",
+      "status": "cleared",
+      "evidence": "CC0 1.0, read from the file's identification block (docs/rights.md)"
+    },
+    {
+      "what": "The piano samples of the sampler mode (Salamander Grand Piano V3)",
+      "status": "cleared",
+      "evidence": "CC BY 3.0, credited on the credits page (docs/sampler.md; one source claims public domain, not confirmed)"
+    },
+    {
+      "what": "The sampler mode plays the recording's aligned timings (her phrasing)",
+      "status": "open",
+      "evidence": "the owner's question for a public release: docs/rights.md item 4, docs/sampler.md; an even-tempo piano from the score would avoid it and is not built"
+    }
+  ]
+}

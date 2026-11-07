@@ -1,0 +1,254 @@
+[
+ {
+  "piece": "c02",
+  "bar": 37,
+  "from": 48,
+  "to": 52,
+  "evidence": "PDF reading E3 against MXL C3; the recording has 8.2 dB more at E3 than at C3 for this note (audio_check)"
+ },
+ {
+  "piece": "c08",
+  "bar": 68,
+  "from": 53,
+  "to": 57,
+  "evidence": "PDF A3 against MXL F3; recording +9.4 dB for A3"
+ },
+ {
+  "piece": "c08",
+  "bar": 133,
+  "from": 69,
+  "to": 65,
+  "evidence": "PDF F4 against MXL A4; recording +4.8 dB for F4"
+ },
+ {
+  "piece": "c14",
+  "bar": 147,
+  "from": 53,
+  "to": 57,
+  "evidence": "PDF A3 against MXL F3; recording +9.9 dB for A3"
+ },
+ {
+  "piece": "k1",
+  "bar": 39,
+  "from": 70,
+  "to": 74,
+  "evidence": "PDF D5 against MXL Bb4; recording +4.4 and +8.4 dB for D5 on the two passes"
+ },
+ {
+  "piece": "k1",
+  "bar": 71,
+  "from": 69,
+  "to": 65,
+  "evidence": "PDF F4 against MXL A4; recording +0.6 and +12.6 dB for F4 on the two passes"
+ },
+ {
+  "piece": "c04",
+  "bar": 120,
+  "voice": 2,
+  "beat": 0,
+  "from": 64,
+  "to": 60,
+  "evidence": "PDF middle C4 on its ledger line (voice 2, first beat; checked by counting staff steps from the A4 above it) against MXL E4; recording C4 +6.3 against E4 +5.2 dB, a weak tendency"
+ },
+ {
+  "piece": "c11",
+  "bar": 180,
+  "voice": 2,
+  "beat": 60,
+  "from": 70,
+  "to": 72,
+  "evidence": "PDF C5 against MXL Bb4 for the third note of the lower treble voice; recording at that moment: C5 +15.9, A4 +3.1, Bb4 -10.5 dB"
+ },
+ {
+  "piece": "c10",
+  "bar": 82,
+  "voice": 2,
+  "beat": 84,
+  "from": 67,
+  "to": 64,
+  "evidence": "PDF E4 (last eighth of the group G Bb A E, three steps below the A4) against MXL G4; recording E4 +10.3, G4 +4.9 dB"
+ },
+ {
+  "piece": "k1",
+  "bar": 98,
+  "voice": 2,
+  "beat": 48,
+  "from": 57,
+  "to": 55,
+  "evidence": "PDF G3 against MXL A3 for the last eighth; recording G3 +3.1, A3 -5.6 dB"
+ },
+ {
+  "piece": "c10",
+  "bar": 37,
+  "voice": 3,
+  "beat": 0,
+  "from": 69,
+  "to": 57,
+  "evidence": "PDF A3 on the bass staff's top line (half note) against MXL A4; the voice comes from C4 in the bar before, so A3 follows by a third and A4 would be a leap of a sixth; recording has both octaves (A3 +11.9, A4 +10.1 dB)"
+ },
+ {
+  "piece": "c10",
+  "bar": 53,
+  "voice": 4,
+  "beat": 0,
+  "from": 50,
+  "to": 48,
+  "evidence": "lowest voice, first note: PDF C3 against MXL D3; recording C3 +29.3, D3 -3.0 dB"
+ },
+ {
+  "piece": "c10",
+  "bar": 53,
+  "voice": 4,
+  "beat": 36,
+  "from": 52,
+  "to": 50,
+  "evidence": "lowest voice, second note: PDF D3 against MXL E3; recording D3 +20.7, E3 +3.0 dB"
+ },
+ {
+  "piece": "c10",
+  "bar": 53,
+  "op": "merge",
+  "voice": 4,
+  "beats": [
+   48,
+   60,
+   72,
+   84
+  ],
+  "to": 52,
+  "evidence": "the PDF has one half-note E3 where the MXL has the eighths F3 G3 F3 E3 in the lowest voice; recording at the third eighth: E3 +13.9, F3 +3.1 dB, and E3 +13.7 at the last"
+ },
+ {
+  "piece": "c11",
+  "bar": 81,
+  "op": "split",
+  "voice": 2,
+  "beat": 48,
+  "dur": 12,
+  "add": [
+   {
+    "beat": 60,
+    "pitch": 62,
+    "dur": 12
+   }
+  ],
+  "evidence": "the PDF has four beamed eighths in this voice (F#4 D4 G4 E4, evenly spaced) where the MXL has two quarters (F#4, G4); the recording does not decide: the D4 attack at the third beat of the bar is +4.7 dB, the E4 attack +1.5 dB, in a dense texture where even the shared notes rise only 4 to 13 dB. Applied on the PDF's authority alone"
+ },
+ {
+  "piece": "c11",
+  "bar": 81,
+  "op": "split",
+  "voice": 2,
+  "beat": 72,
+  "dur": 12,
+  "add": [
+   {
+    "beat": 84,
+    "pitch": 64,
+    "dur": 12
+   }
+  ],
+  "evidence": "second half of the same correction (G4 then E4 as eighths)"
+ },
+ {
+  "piece": "k1",
+  "op": "clear_flags",
+  "flags": [
+   "staccato"
+  ],
+  "evidence": "the PDF prints no staccato in Canon 1; the MXL has 48 marks. In the recording these notes die away no faster than unmarked notes of the same length (median percentile 45 among them, 9 of 48 above the 75th: chance is 12), so they are not played detached"
+ },
+ {
+  "piece": "c08",
+  "op": "clear_flags",
+  "flags": [
+   "mordent",
+   "inverted-mordent"
+  ],
+  "bars": [
+   13,
+   23,
+   37,
+   63,
+   69,
+   83,
+   117,
+   133,
+   149,
+   154,
+   172,
+   184
+  ],
+  "evidence": "the PDF prints no mordent in bars [13, 23, 37, 63, 69, 83, 117, 133, 149, 154, 172, 184]; the MXL has 12. The recording shows no burst on a neighbouring pitch at their start (median percentile 40 among ordinary notes, 1 of 12 above the 75th)"
+ },
+ {
+  "piece": "c12i",
+  "op": "clear_flags",
+  "flags": [
+   "trill"
+  ],
+  "bars": [
+   8,
+   9,
+   23,
+   24,
+   35
+  ],
+  "evidence": "the PDF prints no trill in bar(s) [8, 9, 23, 24, 35], the MXL has one (inherited from the partner piece the MXL version was built from); the recording shows no alternation with a neighbouring pitch there (percentiles 31 to 50 among ordinary notes)"
+ },
+ {
+  "piece": "c13r",
+  "op": "clear_flags",
+  "flags": [
+   "trill"
+  ],
+  "bars": [
+   11,
+   48,
+   60
+  ],
+  "evidence": "the PDF prints no trill in bar(s) [11, 48, 60], the MXL has one (inherited from the partner piece the MXL version was built from); the recording shows no alternation with a neighbouring pitch there (percentiles 31 to 50 among ordinary notes)"
+ },
+ {
+  "piece": "c12r",
+  "op": "clear_flags",
+  "flags": [
+   "trill"
+  ],
+  "bars": [
+   35
+  ],
+  "evidence": "the PDF prints no trill in bar(s) [35], the MXL has one; the recording shows no alternation with a neighbouring pitch there (percentiles 31 to 50 among ordinary notes)"
+ },
+ {
+  "piece": "c06",
+  "op": "clear_flags",
+  "flags": [
+   "trill"
+  ],
+  "bars": [
+   43
+  ],
+  "evidence": "the PDF prints no trill in bar(s) [43], the MXL has one; the recording shows no alternation with a neighbouring pitch there (percentiles 31 to 50 among ordinary notes)"
+ },
+ {
+  "piece": "c06",
+  "op": "add_flag",
+  "bar": 42,
+  "voice": 1,
+  "beat": 72,
+  "pitch": 69,
+  "flag": "mordent",
+  "evidence": "the PDF prints a mordent on this note, the MXL has none; the recording has a burst on a neighbouring pitch at its start (percentile 87 among ordinary notes)"
+ },
+ {
+  "piece": "c06",
+  "op": "add_flag",
+  "bar": 74,
+  "voice": 1,
+  "beat": 24,
+  "pitch": 73,
+  "flag": "mordent",
+  "evidence": "the PDF prints a mordent on this note, the MXL has none; the recording has a burst on a neighbouring pitch at its start (percentile 95 among ordinary notes)"
+ }
+]

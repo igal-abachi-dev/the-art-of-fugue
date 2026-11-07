@@ -1,0 +1,62 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"framework": "sveltekit",
+	"installCommand": "pnpm install --frozen-lockfile",
+	"buildCommand": "pnpm build",
+	"outputDirectory": "build",
+	"cleanUrls": true,
+	"trailingSlash": false,
+	"headers": [
+		{
+			"source": "/(.*)",
+			"headers": [
+				{ "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+				{ "key": "X-Content-Type-Options", "value": "nosniff" },
+				{ "key": "Referrer-Policy", "value": "same-origin" }
+			]
+		},
+		{
+			"source": "/_app/immutable/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/audio/(.*)",
+			"headers": [
+				{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
+				{ "key": "Accept-Ranges", "value": "bytes" }
+			]
+		},
+		{
+			"source": "/data/pieces/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/spectro/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/notation/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/notation-verovio/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/ambient/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/overview.bin",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/samples/(.*)",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+		},
+		{
+			"source": "/data/manifest.json",
+			"headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+		}
+	]
+}

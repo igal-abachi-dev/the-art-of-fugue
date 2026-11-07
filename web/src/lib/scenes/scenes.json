@@ -1,0 +1,171 @@
+{
+	"default": {
+		"id": "default"
+	},
+	"idle": {
+		"id": "idle",
+		"effects": {
+			"glow": 0.6,
+			"particles": 0.5,
+			"trails": 0,
+			"bloom": 0.3,
+			"shake": 0,
+			"drift": 0.6
+		},
+		"features": {
+			"bach": 0
+		},
+		"ambient": {
+			"preset": "blue-mountains",
+			"opacity": 0.5
+		}
+	},
+	"scenes": {
+		"void": {
+			"id": "void",
+			"effects": {
+				"glow": 0.45,
+				"particles": 0,
+				"trails": 0,
+				"bloom": 0.25,
+				"shake": 0.3
+			},
+			"features": {
+				"highlight": 1
+			},
+			"ambient": {
+				"preset": "underwater-cathedral",
+				"opacity": 0.16
+			}
+		},
+		"counter-fugue": {
+			"id": "counter-fugue",
+			"effects": {
+				"glow": 0.8,
+				"particles": 0.5,
+				"trails": 0.5
+			},
+			"features": {
+				"highlight": 0.8
+			},
+			"ambient": {
+				"preset": "night-forest",
+				"opacity": 0.25
+			}
+		},
+		"ribbons": {
+			"id": "ribbons",
+			"speed": 2.2,
+			"effects": {
+				"glow": 1,
+				"particles": 0.35,
+				"trails": 1
+			},
+			"features": {
+				"ribbons": 1,
+				"highlight": 0.5
+			},
+			"ambient": {
+				"preset": "jellyfish-dance",
+				"opacity": 0.3
+			}
+		},
+		"themes": {
+			"id": "themes",
+			"effects": {
+				"glow": 1,
+				"particles": 0.8,
+				"trails": 0.8
+			},
+			"features": {
+				"themeColour": 1,
+				"highlight": 0.5,
+				"shockwaves": 0.9
+			},
+			"ambient": {
+				"preset": "hyperspace",
+				"opacity": 0.25
+			}
+		},
+		"mirror": {
+			"id": "mirror",
+			"effects": {
+				"glow": 1,
+				"particles": 0.5,
+				"trails": 0.5
+			},
+			"features": {
+				"ghost": 1,
+				"highlight": 0.4
+			},
+			"ambient": {
+				"preset": "golden-mirror",
+				"opacity": 0.3
+			}
+		},
+		"unfinished": {
+			"id": "unfinished",
+			"effects": {
+				"glow": 1,
+				"particles": 1,
+				"trails": 0.8
+			},
+			"features": {
+				"themeColour": 1,
+				"highlight": 0.5,
+				"shockwaves": 0.7,
+				"bach": 1
+			},
+			"ending": true,
+			"ambient": {
+				"preset": "stormy-sea",
+				"opacity": 0.35
+			}
+		},
+		"canon": {
+			"id": "canon",
+			"layout": "lanes",
+			"camera": {
+				"tilt": 0.05,
+				"targetY": 0
+			},
+			"ahead": 7.5,
+			"speed": 2.3,
+			"effects": {
+				"glow": 1,
+				"particles": 0.6,
+				"trails": 0.7
+			},
+			"features": {
+				"links": 1,
+				"highlight": 0.5
+			},
+			"ambient": {
+				"preset": "escape",
+				"opacity": 0.25
+			}
+		}
+	},
+	"pieces": {
+		"c01": "void",
+		"c02": "void",
+		"c03": "void",
+		"c04": "void",
+		"c05": "counter-fugue",
+		"c06": "ribbons",
+		"c07": "ribbons",
+		"c08": "themes",
+		"c09": "themes",
+		"c10": "themes",
+		"c11": "themes",
+		"c12r": "mirror",
+		"c12i": "mirror",
+		"c13r": "mirror",
+		"c13i": "mirror",
+		"c14": "unfinished",
+		"k1": "canon",
+		"k2": "canon",
+		"k3": "canon",
+		"k4": "canon"
+	}
+}

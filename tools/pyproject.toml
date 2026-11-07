@@ -1,0 +1,11 @@
+[project]
+name = "artfugue-tools"
+version = "0.0.0"
+requires-python = ">=3.12,<3.13"
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

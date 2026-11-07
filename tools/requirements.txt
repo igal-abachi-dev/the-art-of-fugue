@@ -1,0 +1,14 @@
+# Data pipeline (Python 3.12; the system 3.14 is too new for numba/librosa)
+music21
+lxml
+numpy
+scipy
+soundfile
+librosa
+synctoolbox
+pretty_midi
+jsonschema
+pytest
+ruff
+pymupdf
+fonttools

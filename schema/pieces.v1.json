@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-of-fugue.local/schema/pieces.v1.json",
+  "title": "PiecesFile",
+  "description": "Table of pieces with bars, voices and metadata. Fields audio_start/audio_end and Bar.t are filled in by E2.",
+  "type": "object",
+  "required": ["version", "ppq", "pieces"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "ppq": { "type": "integer", "minimum": 1 },
+    "pieces": { "type": "array", "items": { "$ref": "#/$defs/Piece" } }
+  },
+  "$defs": {
+    "Kind": {
+      "enum": ["simple-fugue", "counter-fugue", "double-fugue", "triple-fugue", "mirror-fugue", "canon", "unfinished-fugue"]
+    },
+    "Status": { "enum": ["ok", "derived", "excluded"] },
+    "Bar": {
+      "title": "Bar",
+      "type": "object",
+      "required": ["n", "on", "len", "mxl"],
+      "additionalProperties": false,
+      "properties": {
+        "n": { "type": "integer", "minimum": 0, "description": "printed bar number (0 = pickup)" },
+        "on": { "type": "integer", "minimum": 0, "description": "start in ticks from the start of the piece" },
+        "len": { "type": "integer", "minimum": 0, "description": "length in ticks" },
+        "mxl": { "type": "string", "description": "measure number attribute in the MXL" },
+        "pdf_page": { "type": "integer", "minimum": 1, "description": "physical page of the Contrapunctus Press PDF" },
+        "pdf_system": { "type": "integer", "minimum": 0, "description": "system index (top = 0) on that page" },
+        "t": { "type": "number", "minimum": 0, "description": "start time in seconds in the recording" }
+      }
+    },
+    "Voice": {
+      "title": "Voice",
+      "type": "object",
+      "required": ["voice", "label", "source", "median_pitch", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "voice": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string" },
+        "source": { "type": "array", "description": "[part] or [staff, voice] for combined-only pieces" },
+        "median_pitch": { "type": "integer" },
+        "notes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "Piece": {
+      "title": "Piece",
+      "type": "object",
+      "required": ["id", "pdf_title", "short", "kind", "order", "in_pdf", "status", "ppq", "n_notes"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+$" },
+        "pdf_title": { "type": "string" },
+        "short": { "type": "string" },
+        "kind": { "$ref": "#/$defs/Kind" },
+        "subtitle": { "type": ["string", "null"] },
+        "note": { "type": "string" },
+        "order": { "type": "integer" },
+        "in_pdf": { "type": "boolean" },
+        "status": { "$ref": "#/$defs/Status" },
+        "ppq": { "type": "integer", "minimum": 1 },
+        "n_notes": { "type": "integer", "minimum": 0 },
+        "n_bars": { "type": "integer", "minimum": 0 },
+        "length_ticks": { "type": "integer", "minimum": 0 },
+        "pickup": { "type": "boolean" },
+        "source_mode": { "enum": ["parts", "combined", "derived"] },
+        "voices": { "type": "array", "items": { "$ref": "#/$defs/Voice" } },
+        "bars": { "type": "array", "items": { "$ref": "#/$defs/Bar" } },
+        "audio_start": { "type": "number", "minimum": 0 },
+        "audio_end": { "type": "number", "minimum": 0 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "enum": ["ok", "derived", "excluded"] } } },
+          "then": { "required": ["bars", "voices", "n_bars", "length_ticks", "source_mode"] }
+        }
+      ]
+    }
+  }
+}

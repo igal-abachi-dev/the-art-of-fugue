@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-of-fugue.local/schema/events.v1.json",
+  "title": "EventsFile",
+  "description": "Musical annotations of one piece (subject entries, BACH motif, clashes, mirror and canon links), referring to notes by id.",
+  "type": "object",
+  "required": ["version", "piece", "events"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "piece": { "type": "string", "pattern": "^[a-z0-9]+$" },
+    "events": { "type": "array", "items": { "$ref": "#/$defs/Event" } }
+  },
+  "$defs": {
+    "EventType": {
+      "enum": ["subject-entry", "bach", "clash", "crossing", "mirror-link", "canon-link"]
+    },
+    "Event": {
+      "title": "AnnotationEvent",
+      "type": "object",
+      "required": ["id", "type", "on", "dur", "bar", "voice", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "$ref": "#/$defs/EventType" },
+        "on": { "type": "integer", "minimum": 0, "description": "start in ticks" },
+        "dur": { "type": "integer", "minimum": 0, "description": "length in ticks (0 = instant)" },
+        "bar": { "type": "integer", "minimum": 0 },
+        "voice": { "type": ["integer", "null"], "description": "main voice, null if several" },
+        "notes": { "type": "array", "items": { "type": "string" }, "description": "note ids" },
+        "data": { "type": "object", "description": "type-specific fields (theme id, form, ratio, ...)" },
+        "t_on": { "type": "number", "minimum": 0 },
+        "t_off": { "type": "number", "minimum": 0 }
+      }
+    }
+  }
+}

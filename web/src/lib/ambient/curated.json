@@ -1,0 +1,53 @@
+{
+	"about": "The MilkDrop presets the scenes use (T6.1.2). `source` is the preset's name in the butterchurn-presets package (1754 presets), which carries its author; `pnpm ambient-presets` copies each one to static/data/ambient/<id>.json. Chosen from a sweep of all 1754 rendered with the recording's audio (pnpm ambient-curate), then by eye, then re-measured over 20 s at three places in the recording: mean luminance 0.04 to 0.27 of full scale, no flashing (at most 0.3 frames in a second jump by more than 0.1), nothing sharp-edged and bright.",
+	"presets": {
+		"blue-mountains": {
+			"source": "martin - blue mountains",
+			"mood": "calm, night, a lake under stars",
+			"scenes": ["idle"],
+			"why": "The silent gaps between pieces: nothing to cover, so it can be the most picture-like."
+		},
+		"underwater-cathedral": {
+			"source": "Martin - underwater cathedral",
+			"mood": "architectural, grey, still",
+			"scenes": ["void"],
+			"why": "Contrapunctus I to IV, the plain fugues: stone arches, no colour to compete with the voices."
+		},
+		"night-forest": {
+			"source": "martin - night in the forest",
+			"mood": "dark, a few lights moving",
+			"scenes": ["counter-fugue"],
+			"why": "Contrapunctus V: darker and more restless than the first four, still nearly black."
+		},
+		"jellyfish-dance": {
+			"source": "martin - jellyfish dance",
+			"mood": "slow organic motion, deep blue",
+			"scenes": ["ribbons"],
+			"why": "The ribbon pieces (VI, VII): flowing shapes that echo the wavy notes."
+		},
+		"hyperspace": {
+			"source": "Rovastar - Hyperspace",
+			"mood": "neutral grey dots in perspective",
+			"scenes": ["themes"],
+			"why": "VIII to XI colour the notes by theme; a grey background leaves the colours alone."
+		},
+		"golden-mirror": {
+			"source": "martin - golden mirror",
+			"mood": "warm, symmetrical",
+			"scenes": ["mirror"],
+			"why": "XII and XIII, rectus and inversus: a picture that is its own reflection."
+		},
+		"stormy-sea": {
+			"source": "martin - stormy sea (2010 update)",
+			"mood": "open, dark sky over rough water",
+			"scenes": ["unfinished"],
+			"why": "The unfinished fugue (XIV): a horizon and nothing above it; fades out with the ending."
+		},
+		"escape": {
+			"source": "Che - Escape",
+			"mood": "blue tunnel of dotted lines",
+			"scenes": ["canon"],
+			"why": "The canons: lines receding to a point, one voice following another."
+		}
+	}
+}

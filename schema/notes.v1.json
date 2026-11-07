@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://art-of-fugue.local/schema/notes.v1.json",
+  "title": "NotesFile",
+  "description": "Notes of one piece, in score time (ticks). Fields t_on/t_off/vel/conf are filled in by the alignment stage (E2).",
+  "type": "object",
+  "required": ["version", "piece", "ppq", "notes"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "piece": { "type": "string", "pattern": "^[a-z0-9]+$" },
+    "ppq": { "type": "integer", "minimum": 1, "description": "ticks per quarter note" },
+    "variant": { "enum": ["written", "unfolded"], "description": "timed files only: score as written, or with the repeats taken as played" },
+    "notes": { "type": "array", "items": { "$ref": "#/$defs/Note" } }
+  },
+  "$defs": {
+    "Flag": {
+      "enum": ["grace", "trill", "mordent", "inverted-mordent", "turn", "inverted-turn", "fermata", "staccato"]
+    },
+    "Note": {
+      "title": "Note",
+      "type": "object",
+      "required": ["id", "pitch", "on", "dur", "voice", "part", "bar", "beat"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+-u?[0-9]{4,}$" },
+        "pitch": { "type": "integer", "minimum": 0, "maximum": 127, "description": "MIDI note number" },
+        "on": { "type": "integer", "minimum": 0, "description": "onset in ticks from the start of the piece" },
+        "dur": { "type": "integer", "minimum": 0, "description": "notated duration in ticks (0 for grace notes)" },
+        "voice": { "type": "integer", "minimum": 1, "description": "voice rank within the piece, 1 = highest" },
+        "part": { "type": "integer", "minimum": 1, "maximum": 5, "description": "MusicXML part (5 = combined)" },
+        "bar": { "type": "integer", "minimum": 0, "description": "printed bar number (0 = pickup)" },
+        "beat": { "type": "integer", "minimum": 0, "description": "ticks from the start of the bar" },
+        "flags": { "type": "array", "items": { "$ref": "#/$defs/Flag" }, "uniqueItems": true },
+        "pass": { "type": "integer", "minimum": 1, "description": "repeat pass (only in unfolded files)" },
+        "src": { "type": "string", "description": "id of the written note this one repeats (unfolded files)" },
+        "t_on": { "type": "number", "minimum": 0, "description": "performance onset, seconds in the recording" },
+        "t_off": { "type": "number", "minimum": 0, "description": "performance release, seconds" },
+        "vel": { "type": "number", "minimum": 0, "maximum": 1 },
+        "conf": { "type": "number", "minimum": 0, "maximum": 1, "description": "alignment confidence" }
+      }
+    }
+  }
+}
