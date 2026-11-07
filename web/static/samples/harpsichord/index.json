@@ -1,0 +1,268 @@
+{
+ "id": "harpsichord",
+ "instrument": "Harpsichord",
+ "note": "Flemish harpsichord, the lower 8-foot register, a far microphone; every note decays by itself",
+ "credit": "Versilian Community Sample Library (VCSL), Versilian Studios LLC, released under CC0 1.0 (public domain)",
+ "license": "CC0 1.0",
+ "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "source_url": "https://github.com/sgossner/VCSL",
+ "format": "mp3",
+ "level": 0.6,
+ "release_tau": 0.05,
+ "delay_s": -0.0015,
+ "dynamics": false,
+ "sustained": false,
+ "layers": [
+  {
+   "name": "all",
+   "vel": 128,
+   "level_db": 0.0,
+   "samples": [
+    {
+     "name": "all F#0 -> 30",
+     "midi": 30,
+     "file": "all-30.mp3",
+     "cents": 1.9,
+     "bytes": 80974,
+     "rise": -0.0402
+    },
+    {
+     "name": "all G#0 -> 32",
+     "midi": 32,
+     "file": "all-32.mp3",
+     "cents": 1.0,
+     "bytes": 82228,
+     "rise": -0.033
+    },
+    {
+     "name": "all A#0 -> 34",
+     "midi": 34,
+     "file": "all-34.mp3",
+     "cents": 4.3,
+     "bytes": 85530,
+     "rise": -0.033
+    },
+    {
+     "name": "all C1 -> 36",
+     "midi": 36,
+     "file": "all-36.mp3",
+     "cents": 3.1,
+     "bytes": 88642,
+     "rise": -0.0373
+    },
+    {
+     "name": "all D1 -> 38",
+     "midi": 38,
+     "file": "all-38.mp3",
+     "cents": 2.9,
+     "bytes": 87387,
+     "rise": -0.0402
+    },
+    {
+     "name": "all E1 -> 40",
+     "midi": 40,
+     "file": "all-40.mp3",
+     "cents": 0.0,
+     "bytes": 87665,
+     "rise": -0.0388
+    },
+    {
+     "name": "all F#1 -> 42",
+     "midi": 42,
+     "file": "all-42.mp3",
+     "cents": 3.9,
+     "bytes": 91563,
+     "rise": -0.0402
+    },
+    {
+     "name": "all G#1 -> 44",
+     "midi": 44,
+     "file": "all-44.mp3",
+     "cents": 1.7,
+     "bytes": 89237,
+     "rise": -0.017
+    },
+    {
+     "name": "all A#1 -> 46",
+     "midi": 46,
+     "file": "all-46.mp3",
+     "cents": 3.8,
+     "bytes": 84136,
+     "rise": -0.0185
+    },
+    {
+     "name": "all C2 -> 48",
+     "midi": 48,
+     "file": "all-48.mp3",
+     "cents": 4.2,
+     "bytes": 77618,
+     "rise": -0.0199
+    },
+    {
+     "name": "all D2 -> 50",
+     "midi": 50,
+     "file": "all-50.mp3",
+     "cents": 6.4,
+     "bytes": 77755,
+     "rise": -0.0199
+    },
+    {
+     "name": "all E2 -> 52",
+     "midi": 52,
+     "file": "all-52.mp3",
+     "cents": 3.8,
+     "bytes": 68521,
+     "rise": -0.0199
+    },
+    {
+     "name": "all F#2 -> 54",
+     "midi": 54,
+     "file": "all-54.mp3",
+     "cents": 3.2,
+     "bytes": 71968,
+     "rise": -0.0199
+    },
+    {
+     "name": "all G#2 -> 56",
+     "midi": 56,
+     "file": "all-56.mp3",
+     "cents": 2.0,
+     "bytes": 69056,
+     "rise": -0.0199
+    },
+    {
+     "name": "all A#2 -> 58",
+     "midi": 58,
+     "file": "all-58.mp3",
+     "cents": 2.4,
+     "bytes": 68043,
+     "rise": -0.0199
+    },
+    {
+     "name": "all C3 -> 60",
+     "midi": 60,
+     "file": "all-60.mp3",
+     "cents": 2.1,
+     "bytes": 67123,
+     "rise": -0.0199
+    },
+    {
+     "name": "all D3 -> 62",
+     "midi": 62,
+     "file": "all-62.mp3",
+     "cents": 1.7,
+     "bytes": 66504,
+     "rise": -0.0199
+    },
+    {
+     "name": "all E3 -> 64",
+     "midi": 64,
+     "file": "all-64.mp3",
+     "cents": 0.3,
+     "bytes": 54563,
+     "rise": -0.0214
+    },
+    {
+     "name": "all F#3 -> 66",
+     "midi": 66,
+     "file": "all-66.mp3",
+     "cents": 1.6,
+     "bytes": 58111,
+     "rise": -0.0214
+    },
+    {
+     "name": "all G#3 -> 68",
+     "midi": 68,
+     "file": "all-68.mp3",
+     "cents": 0.1,
+     "bytes": 56654,
+     "rise": -0.0199
+    },
+    {
+     "name": "all A#3 -> 70",
+     "midi": 70,
+     "file": "all-70.mp3",
+     "cents": -0.2,
+     "bytes": 50750,
+     "rise": -0.0199
+    },
+    {
+     "name": "all C4 -> 72",
+     "midi": 72,
+     "file": "all-72.mp3",
+     "cents": 0.5,
+     "bytes": 53051,
+     "rise": -0.0199
+    },
+    {
+     "name": "all D4 -> 74",
+     "midi": 74,
+     "file": "all-74.mp3",
+     "cents": 0.9,
+     "bytes": 53047,
+     "rise": -0.0199
+    },
+    {
+     "name": "all E4 -> 76",
+     "midi": 76,
+     "file": "all-76.mp3",
+     "cents": 0.4,
+     "bytes": 53271,
+     "rise": -0.0199
+    },
+    {
+     "name": "all F#4 -> 78",
+     "midi": 78,
+     "file": "all-78.mp3",
+     "cents": 2.4,
+     "bytes": 54719,
+     "rise": -0.0199
+    },
+    {
+     "name": "all G#4 -> 80",
+     "midi": 80,
+     "file": "all-80.mp3",
+     "cents": 0.7,
+     "bytes": 56253,
+     "rise": -0.0199
+    },
+    {
+     "name": "all A#4 -> 82",
+     "midi": 82,
+     "file": "all-82.mp3",
+     "cents": 0.3,
+     "bytes": 46098,
+     "rise": -0.0199
+    },
+    {
+     "name": "all C5 -> 84",
+     "midi": 84,
+     "file": "all-84.mp3",
+     "cents": -0.5,
+     "bytes": 44673,
+     "rise": -0.0199
+    }
+   ],
+   "delay_s": 0.0
+  }
+ ],
+ "registration": "crossfade",
+ "sustain": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.5,
+   1.5
+  ],
+  [
+   1.0,
+   4.0
+  ],
+  [
+   2.0,
+   6.0
+  ]
+ ]
+}
