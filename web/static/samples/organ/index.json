@@ -1,0 +1,610 @@
+{
+ "id": "organ",
+ "instrument": "Pipe organ",
+ "note": "a church organ: the quiet rank for soft notes, the open rank and the pedal for full ones; a pipe sounds while the key is held",
+ "credit": "Versilian Community Sample Library (VCSL), Versilian Studios LLC, released under CC0 1.0 (public domain)",
+ "license": "CC0 1.0",
+ "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "source_url": "https://github.com/sgossner/VCSL",
+ "format": "flac",
+ "level": 0.5,
+ "release_tau": 0.08,
+ "delay_s": -0.0109,
+ "dynamics": false,
+ "sustained": true,
+ "layers": [
+  {
+   "name": "soft",
+   "vel": 60,
+   "level_db": -9.0,
+   "samples": [
+    {
+     "name": "soft C1 -> 36",
+     "midi": 36,
+     "file": "soft-36.flac",
+     "cents": 3.0,
+     "bytes": 74718,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0544
+    },
+    {
+     "name": "soft D#1 -> 39",
+     "midi": 39,
+     "file": "soft-39.flac",
+     "cents": 7.9,
+     "bytes": 86770,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0109
+    },
+    {
+     "name": "soft F#1 -> 42",
+     "midi": 42,
+     "file": "soft-42.flac",
+     "cents": 10.0,
+     "bytes": 169787,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0442
+    },
+    {
+     "name": "soft A1 -> 45",
+     "midi": 45,
+     "file": "soft-45.flac",
+     "cents": -2.1,
+     "bytes": 71507,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0486
+    },
+    {
+     "name": "soft C2 -> 48",
+     "midi": 48,
+     "file": "soft-48.flac",
+     "cents": -0.7,
+     "bytes": 83105,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0382
+    },
+    {
+     "name": "soft D#2 -> 51",
+     "midi": 51,
+     "file": "soft-51.flac",
+     "cents": 2.9,
+     "bytes": 100866,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0224
+    },
+    {
+     "name": "soft F#2 -> 54",
+     "midi": 54,
+     "file": "soft-54.flac",
+     "cents": 5.0,
+     "bytes": 68501,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0256
+    },
+    {
+     "name": "soft A2 -> 57",
+     "midi": 57,
+     "file": "soft-57.flac",
+     "cents": 3.9,
+     "bytes": 123093,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.041
+    },
+    {
+     "name": "soft D#1 -> 58",
+     "midi": 58,
+     "file": "soft-58.flac",
+     "cents": 4.3,
+     "bytes": 118302,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0185
+    },
+    {
+     "name": "soft C3 -> 60",
+     "midi": 60,
+     "file": "soft-60.flac",
+     "cents": 2.8,
+     "bytes": 111866,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0481
+    },
+    {
+     "name": "soft D#3 -> 63",
+     "midi": 63,
+     "file": "soft-63.flac",
+     "cents": 0.4,
+     "bytes": 90670,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.052
+    },
+    {
+     "name": "soft F#3 -> 66",
+     "midi": 66,
+     "file": "soft-66.flac",
+     "cents": 0.4,
+     "bytes": 90529,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0435
+    },
+    {
+     "name": "soft A3 -> 69",
+     "midi": 69,
+     "file": "soft-69.flac",
+     "cents": -2.8,
+     "bytes": 127771,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0482
+    },
+    {
+     "name": "soft C4 -> 72",
+     "midi": 72,
+     "file": "soft-72.flac",
+     "cents": -3.5,
+     "bytes": 127628,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0388
+    },
+    {
+     "name": "soft D#4 -> 75",
+     "midi": 75,
+     "file": "soft-75.flac",
+     "cents": -3.0,
+     "bytes": 113510,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0121
+    },
+    {
+     "name": "soft F#4 -> 78",
+     "midi": 78,
+     "file": "soft-78.flac",
+     "cents": -0.6,
+     "bytes": 130661,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": 0.028
+    },
+    {
+     "name": "soft A4 -> 81",
+     "midi": 81,
+     "file": "soft-81.flac",
+     "cents": -0.3,
+     "bytes": 129124,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0132
+    },
+    {
+     "name": "soft C5 -> 84",
+     "midi": 84,
+     "file": "soft-84.flac",
+     "cents": -3.3,
+     "bytes": 126729,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0129
+    },
+    {
+     "name": "soft D#5 -> 87",
+     "midi": 87,
+     "file": "soft-87.flac",
+     "cents": -7.8,
+     "bytes": 142677,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0455
+    },
+    {
+     "name": "soft F#5 -> 90",
+     "midi": 90,
+     "file": "soft-90.flac",
+     "cents": -3.9,
+     "bytes": 142222,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": 0.0129
+    },
+    {
+     "name": "soft A5 -> 93",
+     "midi": 93,
+     "file": "soft-93.flac",
+     "cents": -2.1,
+     "bytes": 136961,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0428
+    },
+    {
+     "name": "soft C6 -> 96",
+     "midi": 96,
+     "file": "soft-96.flac",
+     "cents": -1.3,
+     "bytes": 168258,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0121
+    }
+   ],
+   "delay_s": -0.029
+  },
+  {
+   "name": "full",
+   "vel": 230,
+   "level_db": 0.0,
+   "samples": [
+    {
+     "name": "full F#1 -> 18",
+     "midi": 18,
+     "file": "full-18.flac",
+     "cents": -1.0,
+     "bytes": 152457,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0248
+    },
+    {
+     "name": "full C1 -> 24",
+     "midi": 24,
+     "file": "full-24.flac",
+     "cents": -3.9,
+     "bytes": 153673,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0216
+    },
+    {
+     "name": "full D#1 -> 27",
+     "midi": 27,
+     "file": "full-27.flac",
+     "cents": -2.2,
+     "bytes": 149987,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0219
+    },
+    {
+     "name": "full A1 -> 33",
+     "midi": 33,
+     "file": "full-33.flac",
+     "cents": -3.3,
+     "bytes": 177329,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0188
+    },
+    {
+     "name": "full C2 -> 36",
+     "midi": 36,
+     "file": "full-36.flac",
+     "cents": -3.1,
+     "bytes": 165767,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0407
+    },
+    {
+     "name": "full D#2 -> 39",
+     "midi": 39,
+     "file": "full-39.flac",
+     "cents": -0.3,
+     "bytes": 178717,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0164
+    },
+    {
+     "name": "full F#2 -> 42",
+     "midi": 42,
+     "file": "full-42.flac",
+     "cents": -1.0,
+     "bytes": 177128,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0186
+    },
+    {
+     "name": "full A1 -> 45",
+     "midi": 45,
+     "file": "full-45.flac",
+     "cents": 0.6,
+     "bytes": 106142,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0458
+    },
+    {
+     "name": "full C3 -> 48",
+     "midi": 48,
+     "file": "full-48.flac",
+     "cents": -4.2,
+     "bytes": 193781,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0219
+    },
+    {
+     "name": "full D#3 -> 51",
+     "midi": 51,
+     "file": "full-51.flac",
+     "cents": -2.0,
+     "bytes": 192444,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0117
+    },
+    {
+     "name": "full F#3 -> 54",
+     "midi": 54,
+     "file": "full-54.flac",
+     "cents": -0.8,
+     "bytes": 191687,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.021
+    },
+    {
+     "name": "full A2 -> 57",
+     "midi": 57,
+     "file": "full-57.flac",
+     "cents": 3.9,
+     "bytes": 159017,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0497
+    },
+    {
+     "name": "full D#1 -> 58",
+     "midi": 58,
+     "file": "full-58.flac",
+     "cents": 4.3,
+     "bytes": 154045,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0199
+    },
+    {
+     "name": "full C3 -> 60",
+     "midi": 60,
+     "file": "full-60.flac",
+     "cents": -1.2,
+     "bytes": 166586,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0299
+    },
+    {
+     "name": "full D#3 -> 63",
+     "midi": 63,
+     "file": "full-63.flac",
+     "cents": -4.2,
+     "bytes": 179803,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0261
+    },
+    {
+     "name": "full F#3 -> 66",
+     "midi": 66,
+     "file": "full-66.flac",
+     "cents": 0.4,
+     "bytes": 122749,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0449
+    },
+    {
+     "name": "full A3 -> 69",
+     "midi": 69,
+     "file": "full-69.flac",
+     "cents": 0.1,
+     "bytes": 181644,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0221
+    },
+    {
+     "name": "full C5 -> 72",
+     "midi": 72,
+     "file": "full-72.flac",
+     "cents": -0.6,
+     "bytes": 213177,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0209
+    },
+    {
+     "name": "full D#4 -> 75",
+     "midi": 75,
+     "file": "full-75.flac",
+     "cents": -3.0,
+     "bytes": 148998,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0122
+    },
+    {
+     "name": "full F#4 -> 78",
+     "midi": 78,
+     "file": "full-78.flac",
+     "cents": -0.6,
+     "bytes": 166015,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": 0.028
+    },
+    {
+     "name": "full A4 -> 81",
+     "midi": 81,
+     "file": "full-81.flac",
+     "cents": -0.3,
+     "bytes": 164820,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0132
+    },
+    {
+     "name": "full C5 -> 84",
+     "midi": 84,
+     "file": "full-84.flac",
+     "cents": -3.3,
+     "bytes": 162148,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0129
+    },
+    {
+     "name": "full D#5 -> 87",
+     "midi": 87,
+     "file": "full-87.flac",
+     "cents": -7.8,
+     "bytes": 178649,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0527
+    },
+    {
+     "name": "full F#5 -> 90",
+     "midi": 90,
+     "file": "full-90.flac",
+     "cents": -3.9,
+     "bytes": 178006,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": 0.0129
+    },
+    {
+     "name": "full A5 -> 93",
+     "midi": 93,
+     "file": "full-93.flac",
+     "cents": -2.1,
+     "bytes": 172496,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0431
+    },
+    {
+     "name": "full C6 -> 96",
+     "midi": 96,
+     "file": "full-96.flac",
+     "cents": -1.3,
+     "bytes": 204677,
+     "loop": [
+      1.0,
+      2.2
+     ],
+     "rise": -0.0121
+    }
+   ],
+   "delay_s": 0.0
+  }
+ ],
+ "registration": "terraced"
+}

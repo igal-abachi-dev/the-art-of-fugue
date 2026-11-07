@@ -1,0 +1,1039 @@
+{
+ "id": "piano",
+ "instrument": "Piano",
+ "note": "Steinway B grand, close microphones, three dynamic layers",
+ "credit": "Versilian Community Sample Library (VCSL), Versilian Studios LLC, released under CC0 1.0 (public domain)",
+ "license": "CC0 1.0",
+ "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "source_url": "https://github.com/sgossner/VCSL",
+ "format": "mp3",
+ "level": 0.55,
+ "release_tau": 0.3,
+ "delay_s": -0.0059,
+ "reverb": {
+  "rt60": 2.0,
+  "mix": 0.3
+ },
+ "eq": [
+  {
+   "type": "lowshelf",
+   "freq": 180.0,
+   "gain": 1.5,
+   "q": 0.7
+  },
+  {
+   "type": "peaking",
+   "freq": 750.0,
+   "gain": 5.0,
+   "q": 0.8
+  },
+  {
+   "type": "peaking",
+   "freq": 1400.0,
+   "gain": 2.0,
+   "q": 0.9
+  },
+  {
+   "type": "highshelf",
+   "freq": 2000.0,
+   "gain": -18.0,
+   "q": 0.7
+  },
+  {
+   "type": "highshelf",
+   "freq": 4000.0,
+   "gain": -6.0,
+   "q": 0.7
+  },
+  {
+   "type": "lowpass",
+   "freq": 6000.0,
+   "gain": 0.0,
+   "q": 0.7
+  }
+ ],
+ "registration": "crossfade",
+ "dynamics": false,
+ "sustained": false,
+ "layers": [
+  {
+   "name": "soft",
+   "vel": 85,
+   "level_db": -14.0,
+   "samples": [
+    {
+     "name": "soft A#0 -> 22",
+     "midi": 22,
+     "file": "soft-22.mp3",
+     "cents": 5.6,
+     "bytes": 101643,
+     "rise": -0.0388
+    },
+    {
+     "name": "soft C1 -> 24",
+     "midi": 24,
+     "file": "soft-24.mp3",
+     "cents": 9.2,
+     "bytes": 107063,
+     "rise": -0.0402
+    },
+    {
+     "name": "soft D1 -> 26",
+     "midi": 26,
+     "file": "soft-26.mp3",
+     "cents": 13.7,
+     "bytes": 105133,
+     "rise": -0.0402
+    },
+    {
+     "name": "soft E1 -> 28",
+     "midi": 28,
+     "file": "soft-28.mp3",
+     "cents": -11.1,
+     "bytes": 105206,
+     "rise": -0.0402
+    },
+    {
+     "name": "soft F#1 -> 30",
+     "midi": 30,
+     "file": "soft-30.mp3",
+     "cents": 26.8,
+     "bytes": 104452,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft G#1 -> 32",
+     "midi": 32,
+     "file": "soft-32.mp3",
+     "cents": 17.0,
+     "bytes": 116836,
+     "rise": -0.0402
+    },
+    {
+     "name": "soft A#1 -> 34",
+     "midi": 34,
+     "file": "soft-34.mp3",
+     "cents": 19.1,
+     "bytes": 114503,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft C2 -> 36",
+     "midi": 36,
+     "file": "soft-36.mp3",
+     "cents": 8.2,
+     "bytes": 124803,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft D2 -> 38",
+     "midi": 38,
+     "file": "soft-38.mp3",
+     "cents": -0.4,
+     "bytes": 115595,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft E2 -> 40",
+     "midi": 40,
+     "file": "soft-40.mp3",
+     "cents": 3.2,
+     "bytes": 108774,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft F#2 -> 42",
+     "midi": 42,
+     "file": "soft-42.mp3",
+     "cents": 3.4,
+     "bytes": 110619,
+     "rise": -0.0417
+    },
+    {
+     "name": "soft G#2 -> 44",
+     "midi": 44,
+     "file": "soft-44.mp3",
+     "cents": 3.5,
+     "bytes": 114520,
+     "rise": -0.0185
+    },
+    {
+     "name": "soft A#2 -> 46",
+     "midi": 46,
+     "file": "soft-46.mp3",
+     "cents": -0.4,
+     "bytes": 111740,
+     "rise": -0.0185
+    },
+    {
+     "name": "soft C3 -> 48",
+     "midi": 48,
+     "file": "soft-48.mp3",
+     "cents": 1.3,
+     "bytes": 91674,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft D3 -> 50",
+     "midi": 50,
+     "file": "soft-50.mp3",
+     "cents": 3.0,
+     "bytes": 97971,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft E3 -> 52",
+     "midi": 52,
+     "file": "soft-52.mp3",
+     "cents": -0.7,
+     "bytes": 100412,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft F#3 -> 54",
+     "midi": 54,
+     "file": "soft-54.mp3",
+     "cents": 0.0,
+     "bytes": 90760,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft G#3 -> 56",
+     "midi": 56,
+     "file": "soft-56.mp3",
+     "cents": -0.6,
+     "bytes": 92318,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft A#3 -> 58",
+     "midi": 58,
+     "file": "soft-58.mp3",
+     "cents": 3.8,
+     "bytes": 122995,
+     "rise": -0.0214
+    },
+    {
+     "name": "soft C4 -> 60",
+     "midi": 60,
+     "file": "soft-60.mp3",
+     "cents": 3.3,
+     "bytes": 109479,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft D4 -> 62",
+     "midi": 62,
+     "file": "soft-62.mp3",
+     "cents": 0.6,
+     "bytes": 96950,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft E4 -> 64",
+     "midi": 64,
+     "file": "soft-64.mp3",
+     "cents": 2.5,
+     "bytes": 96247,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft F#4 -> 66",
+     "midi": 66,
+     "file": "soft-66.mp3",
+     "cents": 0.2,
+     "bytes": 100907,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft G#4 -> 68",
+     "midi": 68,
+     "file": "soft-68.mp3",
+     "cents": 3.0,
+     "bytes": 134471,
+     "rise": -0.0214
+    },
+    {
+     "name": "soft A#4 -> 70",
+     "midi": 70,
+     "file": "soft-70.mp3",
+     "cents": 4.5,
+     "bytes": 102520,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft C5 -> 72",
+     "midi": 72,
+     "file": "soft-72.mp3",
+     "cents": 4.6,
+     "bytes": 94614,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft D5 -> 74",
+     "midi": 74,
+     "file": "soft-74.mp3",
+     "cents": 0.0,
+     "bytes": 81377,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft E5 -> 76",
+     "midi": 76,
+     "file": "soft-76.mp3",
+     "cents": 1.3,
+     "bytes": 81964,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft F#5 -> 78",
+     "midi": 78,
+     "file": "soft-78.mp3",
+     "cents": 1.2,
+     "bytes": 88909,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft G#5 -> 80",
+     "midi": 80,
+     "file": "soft-80.mp3",
+     "cents": -0.1,
+     "bytes": 83177,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft A#5 -> 82",
+     "midi": 82,
+     "file": "soft-82.mp3",
+     "cents": 0.8,
+     "bytes": 89306,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft C6 -> 84",
+     "midi": 84,
+     "file": "soft-84.mp3",
+     "cents": 4.2,
+     "bytes": 95188,
+     "rise": -0.0214
+    },
+    {
+     "name": "soft D6 -> 86",
+     "midi": 86,
+     "file": "soft-86.mp3",
+     "cents": 2.5,
+     "bytes": 98359,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft E6 -> 88",
+     "midi": 88,
+     "file": "soft-88.mp3",
+     "cents": 3.0,
+     "bytes": 80461,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft F#6 -> 90",
+     "midi": 90,
+     "file": "soft-90.mp3",
+     "cents": -1.6,
+     "bytes": 74276,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft G#6 -> 92",
+     "midi": 92,
+     "file": "soft-92.mp3",
+     "cents": 0.5,
+     "bytes": 102934,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft A#6 -> 94",
+     "midi": 94,
+     "file": "soft-94.mp3",
+     "cents": -2.3,
+     "bytes": 104653,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft C7 -> 96",
+     "midi": 96,
+     "file": "soft-96.mp3",
+     "cents": 13.2,
+     "bytes": 99821,
+     "rise": -0.0199
+    },
+    {
+     "name": "soft D7 -> 98",
+     "midi": 98,
+     "file": "soft-98.mp3",
+     "cents": 10.5,
+     "bytes": 96521,
+     "rise": -0.0199
+    }
+   ],
+   "delay_s": 0.0
+  },
+  {
+   "name": "mezzo",
+   "vel": 165,
+   "level_db": -7.0,
+   "samples": [
+    {
+     "name": "mezzo A#0 -> 22",
+     "midi": 22,
+     "file": "mezzo-22.mp3",
+     "cents": 7.3,
+     "bytes": 122279,
+     "rise": -0.0402
+    },
+    {
+     "name": "mezzo C1 -> 24",
+     "midi": 24,
+     "file": "mezzo-24.mp3",
+     "cents": 9.7,
+     "bytes": 126544,
+     "rise": -0.0402
+    },
+    {
+     "name": "mezzo D1 -> 26",
+     "midi": 26,
+     "file": "mezzo-26.mp3",
+     "cents": 16.2,
+     "bytes": 120304,
+     "rise": -0.0417
+    },
+    {
+     "name": "mezzo E1 -> 28",
+     "midi": 28,
+     "file": "mezzo-28.mp3",
+     "cents": -9.8,
+     "bytes": 121892,
+     "rise": -0.0417
+    },
+    {
+     "name": "mezzo F#1 -> 30",
+     "midi": 30,
+     "file": "mezzo-30.mp3",
+     "cents": 30.9,
+     "bytes": 116639,
+     "rise": -0.0417
+    },
+    {
+     "name": "mezzo G#1 -> 32",
+     "midi": 32,
+     "file": "mezzo-32.mp3",
+     "cents": 20.3,
+     "bytes": 119373,
+     "rise": -0.0417
+    },
+    {
+     "name": "mezzo A#1 -> 34",
+     "midi": 34,
+     "file": "mezzo-34.mp3",
+     "cents": 21.8,
+     "bytes": 123492,
+     "rise": -0.0431
+    },
+    {
+     "name": "mezzo C2 -> 36",
+     "midi": 36,
+     "file": "mezzo-36.mp3",
+     "cents": 4.3,
+     "bytes": 134517,
+     "rise": -0.0431
+    },
+    {
+     "name": "mezzo D2 -> 38",
+     "midi": 38,
+     "file": "mezzo-38.mp3",
+     "cents": -0.3,
+     "bytes": 121617,
+     "rise": -0.0431
+    },
+    {
+     "name": "mezzo E2 -> 40",
+     "midi": 40,
+     "file": "mezzo-40.mp3",
+     "cents": 2.4,
+     "bytes": 119147,
+     "rise": -0.0431
+    },
+    {
+     "name": "mezzo F#2 -> 42",
+     "midi": 42,
+     "file": "mezzo-42.mp3",
+     "cents": 5.7,
+     "bytes": 120410,
+     "rise": -0.0417
+    },
+    {
+     "name": "mezzo G#2 -> 44",
+     "midi": 44,
+     "file": "mezzo-44.mp3",
+     "cents": 6.2,
+     "bytes": 115179,
+     "rise": -0.0185
+    },
+    {
+     "name": "mezzo A#2 -> 46",
+     "midi": 46,
+     "file": "mezzo-46.mp3",
+     "cents": 1.1,
+     "bytes": 111643,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo C3 -> 48",
+     "midi": 48,
+     "file": "mezzo-48.mp3",
+     "cents": 3.3,
+     "bytes": 95372,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo D3 -> 50",
+     "midi": 50,
+     "file": "mezzo-50.mp3",
+     "cents": 5.6,
+     "bytes": 97010,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo E3 -> 52",
+     "midi": 52,
+     "file": "mezzo-52.mp3",
+     "cents": -0.0,
+     "bytes": 100659,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo F#3 -> 54",
+     "midi": 54,
+     "file": "mezzo-54.mp3",
+     "cents": 1.1,
+     "bytes": 97451,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo G#3 -> 56",
+     "midi": 56,
+     "file": "mezzo-56.mp3",
+     "cents": 0.5,
+     "bytes": 93724,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo A#3 -> 58",
+     "midi": 58,
+     "file": "mezzo-58.mp3",
+     "cents": 7.1,
+     "bytes": 126868,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo C4 -> 60",
+     "midi": 60,
+     "file": "mezzo-60.mp3",
+     "cents": 6.5,
+     "bytes": 112296,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo D4 -> 62",
+     "midi": 62,
+     "file": "mezzo-62.mp3",
+     "cents": 3.1,
+     "bytes": 104159,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo E4 -> 64",
+     "midi": 64,
+     "file": "mezzo-64.mp3",
+     "cents": 3.8,
+     "bytes": 98385,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo F#4 -> 66",
+     "midi": 66,
+     "file": "mezzo-66.mp3",
+     "cents": 1.8,
+     "bytes": 104653,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo G#4 -> 68",
+     "midi": 68,
+     "file": "mezzo-68.mp3",
+     "cents": 2.4,
+     "bytes": 125326,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo A#4 -> 70",
+     "midi": 70,
+     "file": "mezzo-70.mp3",
+     "cents": 5.1,
+     "bytes": 101116,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo C5 -> 72",
+     "midi": 72,
+     "file": "mezzo-72.mp3",
+     "cents": 9.6,
+     "bytes": 88882,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo D5 -> 74",
+     "midi": 74,
+     "file": "mezzo-74.mp3",
+     "cents": 0.4,
+     "bytes": 88913,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo E5 -> 76",
+     "midi": 76,
+     "file": "mezzo-76.mp3",
+     "cents": 1.7,
+     "bytes": 84974,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo F#5 -> 78",
+     "midi": 78,
+     "file": "mezzo-78.mp3",
+     "cents": 3.2,
+     "bytes": 96496,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo G#5 -> 80",
+     "midi": 80,
+     "file": "mezzo-80.mp3",
+     "cents": 0.3,
+     "bytes": 90661,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo A#5 -> 82",
+     "midi": 82,
+     "file": "mezzo-82.mp3",
+     "cents": 1.4,
+     "bytes": 89142,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo C6 -> 84",
+     "midi": 84,
+     "file": "mezzo-84.mp3",
+     "cents": 4.2,
+     "bytes": 95298,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo D6 -> 86",
+     "midi": 86,
+     "file": "mezzo-86.mp3",
+     "cents": 2.9,
+     "bytes": 96543,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo E6 -> 88",
+     "midi": 88,
+     "file": "mezzo-88.mp3",
+     "cents": 2.6,
+     "bytes": 79416,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo F#6 -> 90",
+     "midi": 90,
+     "file": "mezzo-90.mp3",
+     "cents": -2.9,
+     "bytes": 80079,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo G#6 -> 92",
+     "midi": 92,
+     "file": "mezzo-92.mp3",
+     "cents": 0.3,
+     "bytes": 104468,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo A#6 -> 94",
+     "midi": 94,
+     "file": "mezzo-94.mp3",
+     "cents": -4.7,
+     "bytes": 103219,
+     "rise": -0.0214
+    },
+    {
+     "name": "mezzo C7 -> 96",
+     "midi": 96,
+     "file": "mezzo-96.mp3",
+     "cents": 12.5,
+     "bytes": 103269,
+     "rise": -0.0199
+    },
+    {
+     "name": "mezzo D7 -> 98",
+     "midi": 98,
+     "file": "mezzo-98.mp3",
+     "cents": 9.5,
+     "bytes": 99762,
+     "rise": -0.0199
+    }
+   ],
+   "delay_s": 0.0
+  },
+  {
+   "name": "forte",
+   "vel": 235,
+   "level_db": 0.0,
+   "samples": [
+    {
+     "name": "forte A#0 -> 22",
+     "midi": 22,
+     "file": "forte-22.mp3",
+     "cents": 8.6,
+     "bytes": 143853,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte C1 -> 24",
+     "midi": 24,
+     "file": "forte-24.mp3",
+     "cents": 10.8,
+     "bytes": 161112,
+     "rise": -0.0402
+    },
+    {
+     "name": "forte D1 -> 26",
+     "midi": 26,
+     "file": "forte-26.mp3",
+     "cents": 18.2,
+     "bytes": 147194,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte E1 -> 28",
+     "midi": 28,
+     "file": "forte-28.mp3",
+     "cents": -8.4,
+     "bytes": 149013,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte F#1 -> 30",
+     "midi": 30,
+     "file": "forte-30.mp3",
+     "cents": 31.7,
+     "bytes": 145598,
+     "rise": -0.0417
+    },
+    {
+     "name": "forte G#1 -> 32",
+     "midi": 32,
+     "file": "forte-32.mp3",
+     "cents": 20.7,
+     "bytes": 152781,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte A#1 -> 34",
+     "midi": 34,
+     "file": "forte-34.mp3",
+     "cents": 21.7,
+     "bytes": 149304,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte C2 -> 36",
+     "midi": 36,
+     "file": "forte-36.mp3",
+     "cents": 3.0,
+     "bytes": 158864,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte D2 -> 38",
+     "midi": 38,
+     "file": "forte-38.mp3",
+     "cents": 3.2,
+     "bytes": 144275,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte E2 -> 40",
+     "midi": 40,
+     "file": "forte-40.mp3",
+     "cents": 3.2,
+     "bytes": 145677,
+     "rise": -0.0431
+    },
+    {
+     "name": "forte F#2 -> 42",
+     "midi": 42,
+     "file": "forte-42.mp3",
+     "cents": 8.7,
+     "bytes": 138535,
+     "rise": -0.0417
+    },
+    {
+     "name": "forte G#2 -> 44",
+     "midi": 44,
+     "file": "forte-44.mp3",
+     "cents": 7.3,
+     "bytes": 141623,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte A#2 -> 46",
+     "midi": 46,
+     "file": "forte-46.mp3",
+     "cents": 2.1,
+     "bytes": 127027,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte C3 -> 48",
+     "midi": 48,
+     "file": "forte-48.mp3",
+     "cents": 5.8,
+     "bytes": 106703,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte D3 -> 50",
+     "midi": 50,
+     "file": "forte-50.mp3",
+     "cents": 6.2,
+     "bytes": 109333,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte E3 -> 52",
+     "midi": 52,
+     "file": "forte-52.mp3",
+     "cents": 0.9,
+     "bytes": 114231,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte F#3 -> 54",
+     "midi": 54,
+     "file": "forte-54.mp3",
+     "cents": 1.9,
+     "bytes": 101005,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte G#3 -> 56",
+     "midi": 56,
+     "file": "forte-56.mp3",
+     "cents": 0.4,
+     "bytes": 103962,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte A#3 -> 58",
+     "midi": 58,
+     "file": "forte-58.mp3",
+     "cents": 10.1,
+     "bytes": 129042,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte C4 -> 60",
+     "midi": 60,
+     "file": "forte-60.mp3",
+     "cents": 9.3,
+     "bytes": 119919,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte D4 -> 62",
+     "midi": 62,
+     "file": "forte-62.mp3",
+     "cents": 4.9,
+     "bytes": 112818,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte E4 -> 64",
+     "midi": 64,
+     "file": "forte-64.mp3",
+     "cents": 2.7,
+     "bytes": 111595,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte F#4 -> 66",
+     "midi": 66,
+     "file": "forte-66.mp3",
+     "cents": 0.9,
+     "bytes": 120399,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte G#4 -> 68",
+     "midi": 68,
+     "file": "forte-68.mp3",
+     "cents": 1.7,
+     "bytes": 140276,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte A#4 -> 70",
+     "midi": 70,
+     "file": "forte-70.mp3",
+     "cents": 5.6,
+     "bytes": 118346,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte C5 -> 72",
+     "midi": 72,
+     "file": "forte-72.mp3",
+     "cents": 8.6,
+     "bytes": 97846,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte D5 -> 74",
+     "midi": 74,
+     "file": "forte-74.mp3",
+     "cents": 3.3,
+     "bytes": 95217,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte E5 -> 76",
+     "midi": 76,
+     "file": "forte-76.mp3",
+     "cents": 2.8,
+     "bytes": 94076,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte F#5 -> 78",
+     "midi": 78,
+     "file": "forte-78.mp3",
+     "cents": 4.5,
+     "bytes": 97837,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte G#5 -> 80",
+     "midi": 80,
+     "file": "forte-80.mp3",
+     "cents": 1.0,
+     "bytes": 94487,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte A#5 -> 82",
+     "midi": 82,
+     "file": "forte-82.mp3",
+     "cents": 2.5,
+     "bytes": 94856,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte C6 -> 84",
+     "midi": 84,
+     "file": "forte-84.mp3",
+     "cents": 4.4,
+     "bytes": 100814,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte D6 -> 86",
+     "midi": 86,
+     "file": "forte-86.mp3",
+     "cents": 3.5,
+     "bytes": 95810,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte E6 -> 88",
+     "midi": 88,
+     "file": "forte-88.mp3",
+     "cents": 2.6,
+     "bytes": 89903,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte F#6 -> 90",
+     "midi": 90,
+     "file": "forte-90.mp3",
+     "cents": -4.4,
+     "bytes": 92807,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte G#6 -> 92",
+     "midi": 92,
+     "file": "forte-92.mp3",
+     "cents": 1.4,
+     "bytes": 102979,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte A#6 -> 94",
+     "midi": 94,
+     "file": "forte-94.mp3",
+     "cents": 0.4,
+     "bytes": 97354,
+     "rise": -0.0214
+    },
+    {
+     "name": "forte C7 -> 96",
+     "midi": 96,
+     "file": "forte-96.mp3",
+     "cents": 11.8,
+     "bytes": 100128,
+     "rise": -0.0199
+    },
+    {
+     "name": "forte D7 -> 98",
+     "midi": 98,
+     "file": "forte-98.mp3",
+     "cents": 9.8,
+     "bytes": 97542,
+     "rise": -0.0199
+    }
+   ],
+   "delay_s": 0.0
+  }
+ ],
+ "vel_scale": 0.85,
+ "sustain": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.5,
+   3.0
+  ],
+  [
+   1.0,
+   7.0
+  ],
+  [
+   2.0,
+   9.0
+  ]
+ ]
+}
