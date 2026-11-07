@@ -9,7 +9,7 @@
 *.webm
 *.m4a
 *.ogg
-web/static/audio/
+#web/static/audio/
 # ...but the sampler's organ samples are FLAC and are shipped
 !web/static/samples/**/*.flac
 
