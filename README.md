@@ -270,3 +270,34 @@ Private, non-profit use. What the repository contains and what it does not:
 - A licence file for the project's own code has not been chosen yet.
 
 Details and open questions: `docs/rights.md`.
+
+
+
+
+grok:
+### What it is
+**an interactive audio-visual web experience for Bach’s *The Art of Fugue* (BWV 1080).**
+A static site (SvelteKit + Svelte 5 + Three.js + Web Audio + butterchurn) that plays a **real recording** (Marta Czech) of the complete work and drives everything on screen from the audio clock:
+
+- Falling notes on a concert-grand keyboard (one colour per voice)
+- Particles / trails
+- MilkDrop-style of winamp, ambient visuals (butterchurn) with bloom and camera effects
+- Engraved score overlay with sounding notes highlighted
+- Spectrogram with lit notes
+- Per-piece creative scenes
+- Sampler mode
+
+The key technical claim is that **everything follows the real recording**, not a synthesizer. They built a full Python data pipeline that aligns the score (MusicXML + PDF reference) to the audio note-by-note (chroma DTW + heavy QA), then ships the aligned data so the browser just plays the audio and draws against it.
+
+
+### Is it good / interesting?
+**Yes — quite interesting and unusually thorough.**
+
+Strengths:
+- Rare combination of real performance + precise note-level alignment + rich multi-layer visuals (not the usual “MIDI piano roll + pretty particles”).
+- Extremely careful engineering: custom clock that handles browser media-element quirks, discontinuity detection, frame-budget discipline, soak testing, many automated checks.
+- Proper rights awareness (score is CC BY-NC-SA, recording is *not* free to host publicly).
+- Clear architecture, good documentation, tests, and a real generalization plan.
+- The visual language (voice colours, score + spectrogram + ambient + keyboard) is well chosen for contrapuntal music.
+
+It’s the kind of project that sits at the intersection of musicology, performance, and real-time graphics — something you don’t see every day.
