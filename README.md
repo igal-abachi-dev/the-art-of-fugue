@@ -12,11 +12,21 @@ Built with SvelteKit (Svelte 5), Three.js and the Web Audio API, hosted as plain
 No server code runs at play time.
 
 
-**Status: built, not deployed; the sync has been listened to and judged good by the owner (`docs/listening-check.md`).** The data pipeline, the playback engine, the visual core, the score overlay and spectrogram,
+**Status: deployed; the sync has been listened to and judged good by the owner (`docs/listening-check.md`).** The data pipeline, the playback engine, the visual core, the score overlay and spectrogram,
 the per-piece creative scenes (E5), the ambient MilkDrop layer with the bloom and camera effects (E6), the player interface (E7), the sampler mode (E8) and the
 quality and release work (E9: deployment settings and caching, tests, the frame budget, the low-power fallback, the soak test, the release checks) are built and
 measured (see [Status](#status)). **Nothing is deployed**, the recording may not be hosted publicly without the performer's permission (`docs/release.md`),
 and nobody has yet judged how it looks, moves and sounds on a real phone or in Safari. The audio-to-picture sync was measured on the waveform (44 points) and then listened to by the owner across all pieces, who found it good; that listening gave no millisecond numbers.
+
+The full interactive experience is up:
+Complete piece list (Contrapunctus I–XIV + the canons)
+Real recording  
+Falling colored notes on a grand-piano keyboard (voice-colored)
+Timeline/spectrogram scrubber at the bottom
+Full transport controls (play, stop, seek, loop, previous/next piece, rate, etc.)
+Score / Spectrogram toggles
+Pieces panel with voice counts, bar counts, and durations
+Clean dark UI with the note particles already visible even before playback
 
 ## Build it and hear it at localhost:4173
 
